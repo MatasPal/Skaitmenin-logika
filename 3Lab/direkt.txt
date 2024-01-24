@@ -1,0 +1,35 @@
+restart -f
+force -freeze sim:/Lab3/B0 1 0
+force -freeze sim:/Lab3/B1 0 0
+force -freeze sim:/Lab3/B2 0 0
+force -freeze sim:/Lab3/B3 0 0
+force -freeze sim:/Lab3/B4 0 0
+force -freeze sim:/Lab3/B5 0 0
+force -freeze sim:/Lab3/B6 0 0
+force -freeze sim:/Lab3/B7 1 0
+force -freeze sim:/Lab3/rst 1 0, 0 {10 ps}
+force -freeze sim:/Lab3/clk 0 0, 1 {25 ps} -r 50
+force -freeze sim:/Lab3/A1 1 0
+force -freeze sim:/Lab3/A0 1 0
+force -freeze sim:/Lab3/DR 1 0
+force -freeze sim:/Lab3/DL 1 0
+run 50ps
+force -freeze sim:/Lab3/A1 0 0
+force -freeze sim:/Lab3/A0 0 0
+run 50ps
+force -freeze sim:/Lab3/A1 0 0
+force -freeze sim:/Lab3/A0 1 0
+force -freeze sim:/Lab3/DR 1 0
+run 400ps
+force -freeze sim:/Lab3/A0 0 0
+run 50ps
+force -freeze sim:/Lab3/A0 1 0
+force -freeze sim:/Lab3/A1 1 0
+run 50ps
+force -freeze sim:/Lab3/A1 0 0
+force -freeze sim:/Lab3/A0 0 0
+run 50ps
+force -freeze sim:/Lab3/A1 1 0
+force -freeze sim:/Lab3/A0 0 0
+force -freeze sim:/Lab3/DL 1 0
+run 400ps
