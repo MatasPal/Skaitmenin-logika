@@ -1,0 +1,5 @@
+restart -f
+force -freeze sim:/top_cnt/CLK_I 0 0, 1 {20 ps} -r 40
+force -freeze sim:/top_cnt/RST_I 1 0, 0 {50 ps}
+force -freeze sim:/top_cnt/ENBL_I 0 0, 1 {90 ps}
+run 14000

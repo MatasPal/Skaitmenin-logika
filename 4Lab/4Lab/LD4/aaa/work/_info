@@ -1,0 +1,140 @@
+m255
+K4
+z2
+!s11e vcom 2020.3 2020.10, Oct 14 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Users/rgircys/Desktop/Skaitliukas/LD4/aaa
+Ecnt167
+Z1 w1651727569
+Z2 DPx4 ieee 11 numeric_std 0 22 aU^R8eGcicLcUFIaBQSL>3
+Z3 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z4 DPx4 ieee 14 std_logic_1164 0 22 cVAk:aDinOX8^VGI1ekP<3
+!i122 0
+R0
+Z5 8C:/Users/rgircys/Desktop/Skaitliukas/LD4/LD4.vhd
+Z6 FC:/Users/rgircys/Desktop/Skaitliukas/LD4/LD4.vhd
+l0
+L35 1
+Vo3RfU0lSmO;:lHTkBi^W23
+!s100 <Mk__NXH3?_eMZ@nCX;660
+Z7 OT;C;2020.3;71
+32
+Z8 !s110 1651730337
+!i10b 1
+Z9 !s108 1651730337.000000
+Z10 !s90 -reportprogress|300|-work|work|C:/Users/rgircys/Desktop/Skaitliukas/LD4/LD4.vhd|
+!s107 C:/Users/rgircys/Desktop/Skaitliukas/LD4/LD4.vhd|
+!i113 1
+Z11 o-work work -O0
+Z12 tExplicit 1 CvgOpt 0
+Artl
+R2
+R3
+R4
+DEx4 work 6 cnt167 0 22 o3RfU0lSmO;:lHTkBi^W23
+!i122 0
+l46
+L44 14
+VL;QC`z7gYgYMFH^L3oLl?2
+!s100 bgN06f[P:ITkYCa8zgQTJ1
+R7
+32
+R8
+!i10b 1
+R9
+R10
+Z13 !s107 C:/Users/rgircys/Desktop/Skaitliukas/LD4/LD4.vhd|
+!i113 1
+R11
+R12
+Ecnt23
+R1
+R2
+R3
+R4
+!i122 0
+R0
+R5
+R6
+l0
+L4 1
+VYfF31n@31jTZX7ih>0Lg@0
+!s100 18G:GVU7e2]=;S[C^CU@_3
+R7
+32
+R8
+!i10b 1
+R9
+R10
+R13
+!i113 1
+R11
+R12
+Artl
+R2
+R3
+R4
+DEx4 work 5 cnt23 0 22 YfF31n@31jTZX7ih>0Lg@0
+!i122 0
+l15
+L13 18
+VO?b@PC8l_026N3W31YeTi3
+!s100 3IfNUATOd>nVQO[WSiaY`2
+R7
+32
+R8
+!i10b 1
+R9
+R10
+R13
+!i113 1
+R11
+R12
+Etop_cnt
+R1
+R2
+R3
+R4
+!i122 0
+R0
+R5
+R6
+l0
+L63 1
+V6;D36k=`5M_m_]dVAeN=_1
+!s100 7IG]:0Cn<Q4B0L7Cn=0Cb3
+R7
+32
+R8
+!i10b 1
+R9
+R10
+R13
+!i113 1
+R11
+R12
+Astruct
+R2
+R3
+R4
+DEx4 work 7 top_cnt 0 22 6;D36k=`5M_m_]dVAeN=_1
+!i122 0
+l94
+L71 36
+VngXCSV7Hk9AD:8HFDP8L@0
+!s100 UJ[81h7QLTc5zKBB6IVTY0
+R7
+32
+R8
+!i10b 1
+R9
+R10
+R13
+!i113 1
+R11
+R12

@@ -1,0 +1,23 @@
+restart -f
+force -freeze sim:/top_cnt/CLK_I 0 0, 1 {20 ps} -r 40
+force -freeze sim:/top_cnt/RST_I 1 0, 0 {50 ps}
+force -freeze sim:/top_cnt/ENBL_I 0 0, 1 {90 ps}
+
+run 14000
+
+restart -f
+force -freeze sim:/top_cnt/CLK_I 0 0, 1 {10 ps} -r 20
+force -freeze sim:/top_cnt/ENBL_I 1 0, 0 {500 ps}
+force -freeze sim:/top_cnt/ENBL_I 1 560
+force -freeze sim:/top_cnt/RST_I 1 0, 0 {5 ps}
+run 4000
+
+force -freeze sim:/top_cnt/RST_internal 1 0, 0 {50 ps}
+
+
+restart -f
+force -freeze sim:/top_cnt/CLK_I 0 0, 1 {10 ps} -r 20
+force -freeze sim:/top_cnt/ENBL_I 1 0, 0 {500 ps}
+force -freeze sim:/top_cnt/ENBL_I 1 560
+force -freeze sim:/top_cnt/RST_I 1 0, 0 {5 ps}
+run 304700

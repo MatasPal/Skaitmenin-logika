@@ -1,0 +1,5 @@
+#Start recording tcl command: 5/5/2022 08:20:51
+#Project Location: E:/NamuKompiuteris/PASKAITOS/SkaitmenineLogika/SKlog/Skaitliukas/LD4; Project name: LD4
+prj_project open "E:/NamuKompiuteris/PASKAITOS/SkaitmenineLogika/SKlog/Skaitliukas/LD4/LD4.ldf"
+prj_src add "E:/NamuKompiuteris/PASKAITOS/SkaitmenineLogika/SKlog/Skaitliukas/LD4/aaa/aaa.spf"
+#Stop recording: 5/5/2022 08:22:54
