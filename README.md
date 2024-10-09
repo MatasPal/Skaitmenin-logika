@@ -1,17 +1,17 @@
-# Skaitmeninė logika
+# Digital Logic
 
-## Aprašymas
+## Description
 
-Šis repozitorija skirta **Skaitmeninės logikos** modulio laboratoriniams darbams, atliktiems KTU studijų metu. Modulyje nagrinėjamos skaitmeninės logikos pagrindinės sąvokos, loginiai vartai, kombinacinės ir sekos grandinės, bei jų realizavimas praktinėse užduotyse.
+This repository is dedicated to the **Digital Logic** module's laboratory work, completed during studies at KTU. The module covers the fundamental concepts of digital logic, including logic gates, combinational and sequential circuits, and their implementation in practical tasks.
 
-## Turinys
+## Content
 
-Laboratoriniuose darbuose aptariamos šios temos:
+The laboratory work covers the following topics:
 
-- **Loginiai vartai (AND, OR, NOT, XOR ir kt.)**
-- **Sekos grandinės**
-- **Tiesos lentelės ir Karnaugh žemėlapiai**
-- **FSM (galutinių būsenų mašinos) modeliavimas**
-- **Skaitmeninių sistemų projektavimas**
+- **Logic gates (AND, OR, NOT, XOR, etc.)**
+- **Sequential circuits**
+- **Truth tables and Karnaugh maps**
+- **FSM (Finite State Machine) modeling**
+- **Digital systems design**
 
-Kiekviename kataloge pateikiami teoriniai uždaviniai, jų sprendimai bei loginių grandinių realizacijos.
+Each directory contains theoretical exercises, their solutions, and the implementations of logic circuits.
